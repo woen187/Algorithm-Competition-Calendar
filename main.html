@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>记录名称和时间</title>
+    <title>主页</title>
     <style>
-    .inline
+       .title
+       {
+        text-align:center;
+       }
+       .push-link
+       {
+        width: 50;
+        height: 50;
+        background-color:chartreuse;
+        margin:0 auto;
+       }
+    .float-man
     {
-        color:red;
-    }
-    .block
-    {
-        color:green;
+        float:left;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
     }
     </style>
+
 </head>
-<body>
-    <h1><b>这是一个记录名称和时间的网页</b></h1>
-    <form>
-        <label for="cn">比赛网站</label>
-        <input type="text"placeholder="请输入比赛网站"id="cn">
-        <label for="">比赛名称</label>
-        <input type="text"placeholder="请输入比赛内容">
-        <label for="">比赛日期</label>
-        <input type="text"placeholder="请输入日期"> 
-        <input type="submit"value="push">
-        <div class="inline">这是一个块元素</div>
-        <span class="inline">这是一个行内元素</span>
-         </body>
-         
+<body> 
+    <h1 class="title"><b>这是一个记录名称和时间的网页</b></h1>
+     <img src="头像.jpg" alt="作者头像" class="float-man">
+     <div style="text-align: center;">
+       <a href="push-competition.html" class="push-link">PUSH</a>
+     </div>
+  
+</body>
+</html>

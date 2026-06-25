@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>记录数据</title>
+    <style>
+        .input:focus
+        {
+           border-color:red;
+        }
+       .title
+       {
+          text-align: center; 
+       }
+    </style>
 </head>
 <body>
-    
+    <h1 class="title"><b>在下方输入比赛信息</b></h1>
+    <form >
+        <label for="cn">比赛网站</label>
+        <input type="text"placeholder="请输入比赛网站">
+        <label for="">比赛名称</label>
+        <input type="text"placeholder="请输入比赛内容">
+        <label for="">比赛日期</label>
+        <input type="text"placeholder="请输入日期">                                        
+        <input type="submit"value="push">
+    </form>
 </body>
 </html>
